@@ -2,67 +2,67 @@
 //  example : 1
 
 
-var userName = "Ameen ALam";
+// var userName = "Ameen ALam";
 
-function modifyUserName() {
-        userName = "Daniyal Nagori";
-    };
+// function modifyUserName() {
+//         userName = "Daniyal Nagori";
+//     };
 
-function showUserName() {
-        alert(userName);
-    };
+// function showUserName() {
+//         alert(userName);
+//     };
 
-alert(userName); // display Ameen Alam
+// alert(userName); // display Ameen Alam
 
-modifyUserName();
-showUserName();// display Daniyal Nagori
+// modifyUserName();
+// showUserName();// display Daniyal Nagori
 
 
 
 // --------------------------
 //  example : 2
 
-/* 
-function createUserName() {
-    userName = "Ameen Alam";
-}
 
-function modifyUserName() {
-    if(userName)
-        userName = "Daniyal Nagori";
-};
+// function createUserName() {
+//     userName = "Ameen Alam";
+// }
 
-function showUserName() {
-    alert(userName);  
-}
+// function modifyUserName() {
+//     if(userName)
+//         userName = "Daniyal Nagori";
+// };
 
-createUserName();
-showUserName(); // Ameen Alam 
+// function showUserName() {
+//     alert(userName);  
+// }
 
-modifyUserName();
-showUserName(); // Daniyal Nagori 
+// createUserName();
+// showUserName(); // Ameen Alam 
 
- */
+// modifyUserName();
+// showUserName(); // Daniyal Nagori 
+
+ 
 
 
 
 
 // --------------------------
 //  example : 3
-/* 
 
-function createUserName() {
-    var userName = "Ameen Alam";
-}
 
-function showUserName() {
-    alert(userName);
-}
+// function createUserName() {
+//     var userName = "Ameen Alam";
+// }
 
-createUserName();
-showUserName(); // throws error: userName is not defined
+// function showUserName() {
+//     alert(userName);
+// }
 
- */
+// createUserName();
+// showUserName(); // throws error: userName is not defined
+
+
 
 
 
@@ -93,8 +93,8 @@ alert(userName); // Ameen Alam
 // --------------------------
 //  example : 5
 
+/*
 
-/* 
 function NoBlockLevelScope(){
     
     if (1 > 0)
@@ -115,21 +115,21 @@ NoBlockLevelScope();
 //  example : 6
 
 
-/* 
-var age = 100;
-function go(){
- var age = 200;
- var hair =  'black';
- console.log(age);
- console.log(hair);
-}
-go();
-console.log(age);
+
+// var age = 100;
+// function go(){
+//  var age = 200;
+//  var hair =  'black';
+//  console.log(age);
+//  console.log(hair);
+// }
+// go();
+// console.log(age);
 
 // OUTPUT  200 
 // OUTPUT  black 
 // OUTPUT  100 
- */
+ 
 
 
 
